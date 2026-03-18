@@ -6,5 +6,5 @@ def hint_username(username):
     else:
         return "Username is valid."
     
-input_username = "jsmith"
+input_username = "Samchouhan"
 print(hint_username(input_username))
