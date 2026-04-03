@@ -1,0 +1,7 @@
+for loops and while loops share several characteristics. Both loops can be used with a variety of data types, both can be nested, and both can be used with the keywords break and continue. However, there are important differences between the two types of loops: 
+
+-->while loops are used when a segment of code needs to execute repeatedly while a condition is true
+
+-->for loops iterate over a sequence of elements, executing the body of the loop for each element in the sequence
+
+An important distinction is that for loops are suited for objects that have iterable structures. So lists, strings, ranges of integers. Individual integers are not iterable, but can be looped over by the use of the range() function, which is covered below. While loops do not iterate per se, rather they watch a truth condition 
